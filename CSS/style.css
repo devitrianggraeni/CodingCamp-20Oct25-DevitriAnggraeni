@@ -4,7 +4,6 @@
   margin: 0;
   padding: 0;
 }
-
 body {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   line-height: 1.5;
@@ -12,7 +11,6 @@ body {
   color: #333;
   overflow-x: hidden;
 }
-
 /* ============ NAVBAR ============ */
 header {
   background: linear-gradient(135deg, #004aad 0%, #004aad 100%);
