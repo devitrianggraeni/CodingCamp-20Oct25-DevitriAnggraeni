@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio Profile - Devitri Anggraeni</title>
+  <link rel="stylesheet" href="./css/style.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+  <!-- ===== NAVBAR ===== -->
+  <header>
+    <nav class="navbar">
+      <div class="logo">
+        <img src="Logo Devitri.png" alt="Devitri Anggraeni Logo" class="logo-img">
+      </div>
+      <div class="hamburger">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+      <ul class="nav-links">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#profile"> Profile</a></li>
+        <li><a href="#portfolio">Portfolio</a></li>
+        <li><a href="#message">Message</a></li>
+      </ul>
+    </nav>
+  </header>
+  <!-- ===== HOME SECTION ===== -->
+  <section id="home" class="home">
+    <div class="banner">
+      <h2 id="welcome">Hi, Welcome To Portofolio</h2>
+      <p>Devitri Anggraeni!</p>
+    </div>
+  </section>
+
+  <!-- ===== PROFILE SECTION ===== -->
+  <section id="profile" class="profile">
+    <h2>About Profile</h2>
+    <p>
+     A passionate entry-level UI/UX Designer with a strong interest in creating user-centered digital products. 
+     My familiar with tools like Figma and Canva, and I understand the core principles of design thinking, user flow, wireframing, and prototyping. 
+     rrently, My continuously improving my skills in user research and usability testing to craft designs that are more meaningful and impactful. 
+    </p>
+
+    <div class="vision-mission-container">
+      <div class="vision-section">
+        <h3>Vision</h3>
+      </div>
+      <div class="vision-content">
+        <p>To create digital designs that are easy to use, visually appealing, and truly helpful for people in their daily lives.</p>
+      </div>
+      <div class="mission-section">
+        <h3>Mission</h3>
+      </div>
+      <div class="mission-content">
+        <ul>
+          <li><i class="fas fa-check"></i>Design with a deep understanding of users needs and feelings.</li>
+          <li><i class="fas fa-check"></i>Combine beautiful visuals with simple, practical functionality.</li>
+          <li><i class="fas fa-check"></i>Keep learning and improving through research and feedback.</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="headquarters">
+      <h3>Contact Information</h3>
+      <div class="hq-list">
+        <a href="https://wa.me/6285863780259" class="contact-item">
+          <div class="hq-item">
+            <i class="fab fa-whatsapp"></i>
+            <span class="contact-tooltip">WhatsApp</span>
+          </div>
+        </a>
+        <a href="mailto:devitrianggraeni6@gmail.com" class="contact-item">
+          <div class="hq-item">
+            <i class="far fa-envelope"></i>
+            <span class="contact-tooltip">Email</span>
+          </div>
+        </a>
+        <a href="https://maps.app.goo.gl/BCtLJEX5bdA6crWu8" class="contact-item">
+          <div class="hq-item">
+            <i class="fas fa-map-marker-alt"></i>
+            <span class="contact-tooltip">Address</span>
+          </div>
+        </a>
+      </div>
+    </div>
+  </section>
+
+ <section id="portfolio" class="portfolio">
+      <h2>Portofolio</h2>
+    <div class="certificates-grid">
+      <div class="certificate-card">
+        <div class="tech-icons">
+        </div>
+        <h3>Certificate</h3>
+        <a href="https://drive.google.com/drive/folders/16kJ87SfHOb4xUAu_u4YhpHwY12q4BI4t?usp=drive_link" class="view-certificate">View Certificate</a>
+      </div>
+      <div class="certificate-card">
+        <div class="tech-icons">
+        </div>
+        <h3>Project</h3>
+        <a href="https://www.figma.com/proto/lb4WfEE9rxF4ZDpTm0UyCp/SmartHome?node-id=109%3A1610&scaling=scale-down&pageid=0%3A1&starting-point-node-id=2%3A115" class="view-certificate">View Project</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== MESSAGE SECTION ===== -->
+  <section id="message" class="message">
+    <h2>Message</h2>
+    <div class="form-container">
+      <form id="contactForm" onsubmit="return false;">
+        <label>Nama</label>
+        <input type="text" id="name" placeholder="Masukkan nama Anda">
+
+        <label>Email</label>
+        <input type="email" id="email" placeholder="Masukkan email Anda">
+
+        <label>Nomor Telepon</label>
+        <input type="tel" id="phone" placeholder="Masukkan nomor telepon">
+
+        <label>Pesan</label>
+        <textarea id="messageText" placeholder="Tulis pesan Anda..."></textarea>
+
+        <button id="submitBtn" class="home-btn">Submit</button>
+      </form>
+
+      <div id="resultBox" class="result-box">
+        <h3>Form Output:</h3>
+        <p>Data akan muncul di sini setelah Anda submit.</p>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <p>© 2025 MyPortofolio | Created by Devitri Anggraeni</p>
+  </footer>
+
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+  <script async defer src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY&callback=initMaps"></script>
+  <script src="./js/script.js"></script>
+</body>
+</html>
